@@ -1,7 +1,7 @@
 package pizzaaf;
 
 public class VeggiePizza extends Pizza {
-	PizzaIngredientFactory ingredientFactory;
+	protected PizzaIngredientFactory ingredientFactory;
  
 	public VeggiePizza(PizzaIngredientFactory ingredientFactory) {
 		this.ingredientFactory = ingredientFactory;
